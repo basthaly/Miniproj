@@ -7,3 +7,7 @@ les fichiers modifié dans bind sont :
   - named.conf.local
   - named.conf.options
   - dns.bastien-guillot.local
+  - dns.10.214.1 (Permet de gérer le reverse)
+
+
+

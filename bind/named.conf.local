@@ -12,7 +12,7 @@ zone "bastien-guillot.local" {
 
 };
 
-zone "10.214.in-addr.arpa" {
+zone "1.214.10.in-addr.arpa" IN {
 	type master;
 	file "/etc/bind/dns.10.214.1";
 };

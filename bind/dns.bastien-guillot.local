@@ -1,0 +1,13 @@
+$TTL 1h;
+@ IN SOA dns.bastien-guillot.local. root.bastien-guillot.local. (
+	2015091301 ; Serial
+	3600 ; Refresh(1h)
+	3600 ; Retry(1h)
+	3600000 ; Expire(41j)
+	86400 ) ; Minimum(24h)
+
+$ORIGIN bastien-guillot.local.
+@	IN	NS	dns
+@	IN	MX	0	mail
+dns	IN	A	10.214.1.45
+mail	IN	A	10.214.1.45
